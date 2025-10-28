@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+
+# Hardhat build artifacts and cache
+artifacts/
+cache/
+
+# Coverage reports
+coverage/
+coverage.json
+
+# Environment variables (keep .env.example)
+.env
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/settings.json
+.idea/
+
+# Deployment artifacts
+deployments/
+
+# Gas reporter output
+gas-reporter-output.json
+
+# TypeChain generated files
+typechain/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Private keys and wallets (never commit these!)
+*.pem
+*.key
+keystore/
+wallets/
+
+# Hardhat network files
+hardhat-network/
+
+# Foundry (if used)
+out/
+broadcast/
+
+# Other generated files
+build/
+dist/
